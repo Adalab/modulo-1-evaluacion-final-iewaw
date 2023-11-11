@@ -7,22 +7,17 @@
 
         &__tips {
             color: $light-blue;
-            font-family: $roboto;
-            font-size: 14px;
-            font-weight: 300;
+            font: 300 14px $roboto;
         }
 
         &__window {
             color: black;
-            font-family: $roboto-slab;
-            font-size: 24px;
+            font: 24px $roboto-slab;
         }
 
         &__text {
             color: $greyish;
-            font-family: $roboto;
-            font-size: 18px;
-            font-weight: 300;
+            font: 300 18px $roboto;
             margin-top: 15px;
         }
 
@@ -36,9 +31,7 @@
             border: $orange solid 2px;
             border-radius: 23px;
             margin-top: 30px;
-            font-family: $roboto;
-            font-size: 20px;
-            font-weight: 500;
+            font: 500 20px $roboto;
         }
     }
 
@@ -50,8 +43,7 @@
         text-align: center;
 
         &__purchase {
-            font-family: $roboto-slab;
-            font-size: 24px;
+            font: 24px $roboto-slab;
             color: black;
             margin-bottom: 45px;
         }
@@ -69,15 +61,12 @@
             padding-bottom: 45px;
 
             &__reason {
-                font-family: $roboto-slab;
-                font-size: 18px;
+                font: 18px $roboto-slab;
                 color: black;
             }
 
             &__description {
-                font-family: $roboto;
-                font-size: 18px;
-                font-weight: 300;
+                font: 300 18px $roboto;
             }
         }
 
@@ -93,9 +82,7 @@
             background-color: $orange;
             color: white;
             border-radius: 23px;
-            font-family: $roboto;
-            font-size: 20px;
-            font-weight: 500;
+            font: 500 20px $roboto;
         }
     }
 }
