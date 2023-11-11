@@ -27,14 +27,14 @@
         flex-direction: column;
         align-items: center;
 
-        &--title {
+        &__title {
             font-family: $roboto-slab;
             font-size: 42px;
             color: $white;
             margin: 0 15px 10px 15px;
         }
 
-        &--motto {
+        &__motto {
             font-family: $roboto;
             font-size: 16px;
             font-weight: 100;
@@ -42,7 +42,7 @@
             margin: 0 15px 40px 15px;
         }
 
-        &--scroll {
+        &__scroll {
             background-color: $white;
             border-radius: 100%;
             height: 45px;

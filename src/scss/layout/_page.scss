@@ -1,46 +1,101 @@
 .main {
-    padding: 30px 15px 60px 15px;
-    width: 100%;
-}
+    width: 100vw;
 
-.section1 {
-    background-color: $white;
-    height: 66vh;
+    .section1 {
+        background-color: $white;
+        padding: 30px 15px;
 
-    &__tips {
-        color: $light-blue;
-        font-family: $roboto;
-        font-size: 14px;
-        font-weight: 100;
+        &__tips {
+            color: $light-blue;
+            font-family: $roboto;
+            font-size: 14px;
+            font-weight: 300;
+        }
+
+        &__window {
+            color: black;
+            font-family: $roboto-slab;
+            font-size: 24px;
+        }
+
+        &__text {
+            color: $greyish;
+            font-family: $roboto;
+            font-size: 18px;
+            font-weight: 300;
+            margin-top: 15px;
+        }
+
+        &__go {
+            display: flex;
+            width: 76px;
+            height: 45px;
+            align-items: center;
+            justify-content: center;
+            color: $orange;
+            border: $orange solid 2px;
+            border-radius: 23px;
+            margin-top: 30px;
+            font-family: $roboto;
+            font-size: 20px;
+            font-weight: 500;
+        }
     }
 
-    &__window {
-        color: black;
-        font-family: $roboto-slab;
-        font-size: 24px;
-    }
-
-    &__text {
-        color: $greyish;
-        font-family: $roboto;
-        font-size: 18px;
-        font-weight: 100;
-    }
-
-    &__go {
+    .section2 {
         display: flex;
-        width: 76px;
-        height: 45px;
-        align-items: center;
-        justify-content: center;
-        color: $orange;
-        border: $orange solid 2px;
-        border-radius: 23px;
-        margin-top: 30px;
-        margin-bottom: 45px;
-        font-family: $roboto;
-        font-size: 20px;
-        font-weight: 500;
-    }
+        flex-direction: column;
+        background-color: $ice-blue;
+        padding: 30px 15px 60px 15px;
+        text-align: center;
 
+        &__purchase {
+            font-family: $roboto-slab;
+            font-size: 24px;
+            color: black;
+            margin-bottom: 45px;
+        }
+
+        &__grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            margin-left: 55px;
+            margin-right: 55px;
+            align-items: center;
+            align-content: center;
+        }
+
+        &__reasons {
+            padding-bottom: 45px;
+
+            &__reason {
+                font-family: $roboto-slab;
+                font-size: 18px;
+                color: black;
+            }
+
+            &__description {
+                font-family: $roboto;
+                font-size: 18px;
+                font-weight: 300;
+            }
+        }
+
+        &__more {
+            width: 183px;
+            height: 45px;
+            align-self: center;
+            display: flex;
+            width: 183px;
+            height: 45px;
+            align-items: center;
+            justify-content: center;
+            background-color: $orange;
+            color: white;
+            border-radius: 23px;
+            font-family: $roboto;
+            font-size: 20px;
+            font-weight: 500;
+        }
+    }
 }
