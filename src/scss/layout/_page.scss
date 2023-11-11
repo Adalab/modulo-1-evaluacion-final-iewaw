@@ -32,6 +32,11 @@
             border-radius: 23px;
             margin-top: 30px;
             font: 500 20px $roboto;
+            cursor: pointer;
+        }
+
+        &__go:hover {
+            transform: scale(1.2);
         }
     }
 
@@ -83,6 +88,11 @@
             color: white;
             border-radius: 23px;
             font: 500 20px $roboto;
+            cursor: pointer;
+        }
+
+        &__more:hover {
+            transform: scale(1.2);
         }
     }
 }
