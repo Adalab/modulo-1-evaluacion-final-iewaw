@@ -2,36 +2,36 @@
     width: 100vw;
 
     .section1 {
-        background-color: $white;
-        padding: 30px 15px;
+        background-color: $background-1;
+        padding: 3rem 1.5rem;
 
         &__tips {
-            color: $light-blue;
-            font: 300 14px $roboto;
+            color: $subtitle;
+            font: 300 1.4rem $font-main;
         }
 
         &__window {
-            color: black;
-            font: 24px $roboto-slab;
+            color: $fcolor1;
+            font: 2.4rem $font-2;
         }
 
         &__text {
-            color: $greyish;
-            font: 300 18px $roboto;
-            margin-top: 15px;
+            color: $fcolor-2;
+            font: 300 1.8rem $font-main;
+            margin-top: 1.5rem;
         }
 
         &__go {
             display: flex;
-            width: 76px;
-            height: 45px;
+            width: 7.5rem;
+            height: 4.5rem;
             align-items: center;
             justify-content: center;
-            color: $orange;
-            border: $orange solid 2px;
-            border-radius: 23px;
-            margin-top: 30px;
-            font: 500 20px $roboto;
+            color: $button;
+            border: $button solid 0.2rem;
+            border-radius: 2.3rem;
+            margin-top: 3rem;
+            font: 500 2rem $font-main;
             cursor: pointer;
         }
 
@@ -43,51 +43,49 @@
     .section2 {
         display: flex;
         flex-direction: column;
-        background-color: $ice-blue;
-        padding: 30px 15px 60px 15px;
+        background-color: $background-2;
+        padding: 3rem 1.5rem 6rem 1.5rem;
         text-align: center;
 
         &__purchase {
-            font: 24px $roboto-slab;
-            color: black;
-            margin-bottom: 45px;
+            font: 2.4rem $font-2;
+            color: $fcolor1;
+            margin-bottom: 4.5rem;
         }
 
         &__grid {
             display: grid;
             grid-template-columns: 1fr;
-            margin-left: 55px;
-            margin-right: 55px;
+            margin-left: 5.5rem;
+            margin-right: 5.5rem;
             align-items: center;
             align-content: center;
         }
 
         &__reasons {
-            padding-bottom: 45px;
+            padding-bottom: 4.5rem;
 
             &__reason {
-                font: 18px $roboto-slab;
-                color: black;
+                font: 1.8rem $font-2;
+                color: $fcolor1;
             }
 
             &__description {
-                font: 300 18px $roboto;
+                font: 300 1.8rem $font-main;
             }
         }
 
         &__more {
-            width: 183px;
-            height: 45px;
+            width: 18.5rem;
+            height: 4.5rem;
             align-self: center;
             display: flex;
-            width: 183px;
-            height: 45px;
             align-items: center;
             justify-content: center;
-            background-color: $orange;
-            color: white;
-            border-radius: 23px;
-            font: 500 20px $roboto;
+            background-color: $button;
+            color: $background-1;
+            border-radius: 2.3rem;
+            font: 500 2rem $font-main;
             cursor: pointer;
         }
 

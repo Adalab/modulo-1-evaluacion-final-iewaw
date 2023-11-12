@@ -8,9 +8,9 @@
     align-items: center;
 
     &__menu {
-        background-color: $medium-blue;
-        height: 45px;
-        width: 45px;
+        background-color: $menu;
+        height: 4.5rem;
+        width: 4.5rem;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -21,7 +21,7 @@
     }
 
     &__menu:hover {
-        background-color: $light-blue;
+        background-color: $subtitle;
     }
 
     &__content {
@@ -33,25 +33,30 @@
         align-items: center;
 
         &__title {
-            font: 42px $roboto-slab;
-            color: $white;
-            margin: 0 15px 10px 15px;
+            font: 4.2rem $font-2;
+            color: $background-1;
+            margin: 0 1.5rem 1rem 1.5rem;
         }
 
         &__motto {
-            font: 300 16px $roboto;
-            color: $white;
-            margin: 0 15px 40px 15px;
+            font: 300 1.6rem $font-main;
+            color: $background-1;
+            margin: 0 1.5rem 4rem 1.5rem;
         }
 
         &__scroll {
-            background-color: $white;
+            background-color: $background-1;
             border-radius: 100%;
-            height: 45px;
-            width: 45px;
+            height: 4.5rem;
+            width: 4.5rem;
             display: flex;
-            align-items: center;
             justify-content: center;
+            position: relative;
+
+            &__arrow {
+                position: absolute;
+                bottom: 1.5rem;
+            }
         }
     }
 }

@@ -1,5 +1,5 @@
 .footer {
-    background-color: $navy-blue;
+    background-color: $background-3;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,15 +7,15 @@
     text-align: center;
 
     &__up {
-        background-color: $white;
+        background-color: $background-1;
         border-radius: 100%;
-        height: 45px;
-        width: 45px;
+        height: 4.5rem;
+        width: 4.5rem;
         display: flex;
         align-items: center;
         justify-content: center;
         position: absolute;
-        top: -23px;
+        top: -2.3rem;
     }
 
     &__list {
@@ -23,40 +23,39 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 7px;
-        margin-bottom: 30px;
+        gap: 0.7rem;
+        margin-bottom: 3rem;
 
 
         &__item,
         &__item:visited {
             cursor: pointer;
             text-decoration: none;
-            font: 300 16px $roboto;
-            color: $white;
+            font: 300 1.6rem $font-main;
+            color: $background-1;
         }
 
         &__item:hover {
-            color: $light-blue;
+            color: $subtitle;
         }
     }
 
     &__list1 {
-        margin-top: 60px;
+        margin-top: 6rem;
     }
 
     &__article {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 30px;
-        margin-bottom: 45px;
-        font: 300 16px $roboto;
-        color: $white;
-        gap: 10px;
+        margin-top: 3rem;
+        margin-bottom: 4.5rem;
+        font: 300 1.6rem $font-main;
+        color: $background-1;
+        gap: 1rem;
 
         &__heart {
-            color: $orange;
+            color: $button;
         }
     }
-
 }
