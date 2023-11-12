@@ -59,3 +59,31 @@
         }
     }
 }
+
+@media all and (min-width: 768px) {
+
+    .footer {
+        padding: 0 4rem;
+        flex-direction: row;
+
+        &__up {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        &__list {
+            align-items: flex-start;
+        }
+
+        &__nav {
+            flex: 1;
+        }
+
+        &__article {
+            flex: 1;
+            order: -1;
+            align-items: flex-start;
+            margin-top: 0;
+        }
+    }
+}
