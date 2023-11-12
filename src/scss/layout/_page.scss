@@ -94,3 +94,55 @@
         }
     }
 }
+
+@media all and (min-width: 768px) {
+
+    .main {
+
+        .section1 {
+            padding: 3rem 4rem 6rem 4rem;
+
+            &__window {
+                color: $fcolor1;
+                font-size: 2.6rem;
+            }
+
+            &__text {
+                font-size: 2rem;
+                margin-top: 3rem;
+            }
+
+            &__go {
+                width: 9rem;
+            }
+        }
+
+        .section2 {
+            padding: 3rem 4rem 6rem 4rem;
+
+            &__purchase {
+                font-size: 2.6rem;
+            }
+
+            &__grid {
+                grid-template-columns: 1fr 1fr 1fr;
+                gap: 1.5rem;
+            }
+
+            &__reasons {
+
+                &__reason {
+                    font-size: 2.4rem;
+                }
+
+                &__description {
+                    font-size: 2rem;
+                }
+            }
+
+            &__more {
+                width: 21rem;
+            }
+        }
+    }
+}
