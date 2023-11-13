@@ -53,17 +53,8 @@
             margin-bottom: 4.5rem;
         }
 
-        &__grid {
-            display: grid;
-            grid-template-columns: 1fr;
-            margin-left: 5.5rem;
-            margin-right: 5.5rem;
-            align-items: center;
-            align-content: center;
-        }
-
         &__reasons {
-            padding-bottom: 4.5rem;
+            padding: 0 5.5rem 4.5rem 5.5rem;
 
             &__reason {
                 font: 1.8rem $font-2;
@@ -117,17 +108,18 @@
 
         .section2 {
             padding: 3rem 4rem 6rem 4rem;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 1.5rem;
 
             &__purchase {
+                grid-row: 1;
+                grid-column: 1 / 4;
                 font-size: 2.6rem;
             }
 
-            &__grid {
-                grid-template-columns: 1fr 1fr 1fr;
-                gap: 1.5rem;
-            }
-
             &__reasons {
+                padding: 0 0.5rem 4.5rem 0.5rem;
+
                 &__reason {
                     font-size: 2.4rem;
                 }
@@ -138,6 +130,8 @@
             }
 
             &__more {
+                grid-row: 3;
+                grid-column: 1 / 4;
                 width: 21rem;
             }
         }
@@ -165,13 +159,10 @@
 
         .section2 {
             padding: 6rem 8rem;
+            gap: 3rem;
 
             &__purchase {
                 font-size: 3.2rem;
-            }
-
-            &__grid {
-                gap: 7rem;
             }
 
             &__reasons {
