@@ -98,12 +98,10 @@
 @media all and (min-width: 768px) {
 
     .main {
-
         .section1 {
             padding: 3rem 4rem 6rem 4rem;
 
             &__window {
-                color: $fcolor1;
                 font-size: 2.6rem;
             }
 
@@ -130,7 +128,6 @@
             }
 
             &__reasons {
-
                 &__reason {
                     font-size: 2.4rem;
                 }
@@ -142,6 +139,47 @@
 
             &__more {
                 width: 21rem;
+            }
+        }
+    }
+}
+
+@media all and (min-width: 1280px) {
+
+    .main {
+        .section1 {
+            padding: 6rem 27.5rem;
+
+            &__tips {
+                font-size: 1.6rem;
+            }
+
+            &__window {
+                font-size: 3.2 rem;
+            }
+
+            &__go {
+                width: 16rem;
+            }
+        }
+
+        .section2 {
+            padding: 6rem 8rem;
+
+            &__purchase {
+                font-size: 3.2rem;
+            }
+
+            &__grid {
+                gap: 7rem;
+            }
+
+            &__reasons {
+                padding-bottom: 6rem;
+            }
+
+            &__more {
+                width: 25.5rem;
             }
         }
     }
