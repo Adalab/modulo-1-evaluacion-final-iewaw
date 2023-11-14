@@ -16,6 +16,22 @@
         justify-content: center;
         position: absolute;
         top: -2.3rem;
+
+        &__arrow {
+            opacity: 0.5;
+            animation: fadeIn 3s ease-in-out forwards infinite;
+
+            @keyframes fadeIn {
+                from {
+                    opacity: 0.5;
+                }
+
+                to {
+                    opacity: 1;
+                }
+            }
+        }
+
     }
 
     &__list {
@@ -56,6 +72,21 @@
 
         &__heart {
             color: $button;
+            animation: pulsate 2s infinite;
+
+            @keyframes pulsate {
+                0% {
+                    transform: scale(1);
+                }
+
+                50% {
+                    transform: scale(1.2);
+                }
+
+                100% {
+                    transform: scale(1);
+                }
+            }
         }
     }
 }

@@ -56,6 +56,18 @@
             &__arrow {
                 position: absolute;
                 bottom: 1.5rem;
+                opacity: 0.5;
+                animation: fadeIn 3s ease-in-out forwards infinite;
+
+                @keyframes fadeIn {
+                    from {
+                        opacity: 0.5;
+                    }
+
+                    to {
+                        opacity: 1;
+                    }
+                }
             }
         }
     }
